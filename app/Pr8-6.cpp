@@ -80,20 +80,15 @@ void dualSort(int id[], double sales[], int size)
 
    for (start = 0; start < (size - 1); start++)
    {
-      maxIndex = start;
-      maxValue = sales[start];
-      tempid = id[start];
-      for (int index = start + 1; index < size; index++)
-      {
-         if (sales[index] > maxValue)
-         {
-            maxValue = sales[index];
-            tempid = id[index];
-            maxIndex = index;
-         }
-      }
-      swap(sales[maxIndex], sales[start]);
-      swap(id[maxIndex], id[start]);
+       // find the largest value element index in sales[start..size-1] using
+       // selection sort algorithm and swap id[] elements and sales[] elements.
+
+
+
+
+
+
+
    }
 }
 

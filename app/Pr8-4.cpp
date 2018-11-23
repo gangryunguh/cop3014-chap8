@@ -39,16 +39,16 @@ void bubbleSort(int array[], int size)
    int maxElement;
    int index;
 
-   for (maxElement = size - 1; maxElement > 0; maxElement--)
-   {
-      for (index = 0; index < maxElement; index++)
-      {
-         if (array[index] > array[index + 1])
-         {
-            swap(array[index], array[index + 1]);
-         }
-      }
-   }
+   // Implement a bubble sort which being described in Chap8.3
+
+
+
+
+
+
+
+
+
 }
 
 //***************************************************
@@ -56,7 +56,10 @@ void bubbleSort(int array[], int size)
 //***************************************************
 void swap(int &a, int &b)
 {
-   int temp = a;
-   a = b;
-   b = temp;
+     // Implement to swap the values between a and b.
+     // Please note that the a and b are passed with int &.
+
+
+
+
 }

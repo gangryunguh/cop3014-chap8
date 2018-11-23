@@ -40,14 +40,12 @@ int linearSearch(const int arr[], int size, int value)
    int position = -1;   // To record position of search value
    bool found = false;  // Flag to indicate if the value was found
 
-   while (index < size && !found)
-   {
-      if (arr[index] == value)  // If the value is found
-      {
-         found = true;         // Set the flag
-         position = index;     // Record the value's subscript
-      }
-      index++;                  // Go to the next element
-   }
+   // Implement a loop that iterates over arr[] to find an element
+   // which equals to "value"
+
+
+
+
+
    return position;              // Return the position, or -1
 }

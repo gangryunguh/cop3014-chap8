@@ -52,18 +52,16 @@ int binarySearch(const int array[], int size, int value)
        position = -1;         // Position of search value
    bool found = false;        // Flag
 
-   while (!found && first <= last)
-   {
-      middle = (first + last) / 2;     // Calculate mid point
-      if (array[middle] == value)      // If value is found at mid
-      {
-         found = true;
-         position = middle;
-      }
-      else if (array[middle] > value)  // If value is in lower half
-         last = middle - 1;
-      else
-         first = middle + 1;           // If value is in upper half
-   }
+    // Implement a loop that performs binary-search in arr[] to find an element
+    // which equals to "value"
+
+
+
+
+
+
+
+
+
    return position;
 }
